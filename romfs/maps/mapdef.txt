@@ -1,0 +1,18 @@
+map definition:
+#0000-0001	map width (word)				[2]
+#0002-0003	map height (word)				[2]
+#0004-0005	player start x (word)				[2]
+#0006-0007	player start y (word)				[2]
+#0008-0009	map data offset (long) (if 0 then #0010)	[4]
+#0010-xxxx	map data
+
+map data definition:
+	the data is based on 4 bytes
+	byte 0:
+		block id (0-255)
+	byte 1:
+		sub id (0-255)
+	byte 2:
+		block flags
+	byte 3:
+		color tint (3bits r, 3bits g, 2bits b)

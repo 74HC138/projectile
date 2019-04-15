@@ -1,0 +1,19 @@
+--atlas -f rgba8888 -z auto
+blocks/out_off_bounce.png
+blocks/bookshelf.png
+blocks/brick.png
+blocks/cobblestone.png
+blocks/end_bricks.png
+blocks/end_stone.png
+blocks/furnace_front_on.png
+blocks/grass_side.png
+blocks/log_oak.png
+blocks/log_oak_top.png
+blocks/pink_stained_glass.png
+blocks/sandstone.png
+blocks/shulker_box.png
+blocks/soul_sand.png
+blocks/stone.png
+blocks/stripped_birch_log.png
+blocks/terracotta.png
+blocks/tnt_side.png
