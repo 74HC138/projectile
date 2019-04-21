@@ -464,8 +464,8 @@ void *ayemu_gen_sound(ayemu_ay_t *ay, void *buff, size_t sound_bufsize)
       *sound_buf++ = mix_l & 0x00FF; /* 16 bit sound */
       *sound_buf++ = (mix_l >> 8);
       if (ay->sndfmt.channels != 1) {
-	*sound_buf++ = mix_r & 0x00FF;
-	*sound_buf++ = (mix_r >> 8);
+		*sound_buf++ = mix_r & 0x00FF;
+		*sound_buf++ = (mix_r >> 8);
       }
     }
   }
